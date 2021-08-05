@@ -15,13 +15,13 @@ handlers:
         class: logging.FileHandler
         level: DEBUG
         formatter: standard
-        filename: /tmp/broadlink-flask.log
+        filename: /var/log/broadlink/broadlink-flask.log
         encoding: utf8
     dev-core:
         class: logging.FileHandler
         level: DEBUG
         formatter: standard
-        filename: /tmp/broadlink.dev.log
+        filename: /var/log/broadlink/broadlink.dev.log
         encoding: utf8
 
 loggers:
